@@ -45,27 +45,30 @@ header {
   margin: 0px -20px;
   justify-self: right;
   align-items: center;
+  cursor: pointer;
 }
 
 nav ul {
-  list-style: none;
   text-align: center;
   align-items: center;
 }
 
-nav li {
-  display: inline-grid;
+nav li, header button, h1 {
   font-family: Diablo;
+}
+
+nav li {
+  display: inline-block;
   font-size: 17px;
   text-transform: uppercase;
-  padding: 0px 15px;
-  text-decoration: none;
 }
 
 nav li a {
+  display: block;
   transition: all 0.3s ease 0s;
   text-decoration: none;
   color: #d6d6d6;
+  padding: 20px 15px;
   position: relative;
 }
 
@@ -86,7 +89,6 @@ header button {
   border-radius: 15px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
-  font-family: Diablo;
   font-size: 14px;
   text-transform: uppercase;
   justify-self: left;
@@ -113,7 +115,6 @@ main {
 
 h1 {
   font-size: 20px;
-  font-family: Diablo;
   text-transform: uppercase;
   color: #BE8822;
 }
